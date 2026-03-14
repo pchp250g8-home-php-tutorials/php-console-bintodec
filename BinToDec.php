@@ -5,9 +5,8 @@
     echo("Input a binary number:\r\n");
     $strLine = chop(fgets(STDIN));
     $nStrLen = strlen($strLine);
-    sscanf($strLine,"%[0-1]",$strLine1);
-    $nMatches = strlen($strLine1);
-    $bRightString =($nStrLen <= $nMaxBinDigits && $nStrLen == $nMatches);
+    $bIsBinNum = preg_match_all("^[0-1]+$^", $strLine, $m);
+    $bRightString =($nStrLen <= $nMaxBinDigits && $bIsBinNum);
     if (!$bRightString) 
     {
         echo("Wrong binary number format!!!\r\n");

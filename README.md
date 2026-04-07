@@ -1,5 +1,5 @@
 BinToDec. PHP Tutorials. Simple Input/Output. Strings. Algorithms. Console Application. 
-A console application in the Java programming language. 
+A console application in the PHP programming language. 
 The program does the following:
   1. Asks the user to enter a string.
   2. Checks whether the entered string is valid. It must be less than 32 characters long and contain only the numbers 0 and 1.
@@ -21,7 +21,7 @@ The program does the following:
 Developed in the Apache NetBeans integrated environment (in the Microsoft Visual Studio Code editor).
 
 BinToDec. Занятия по PHP. Простой Ввод/вывод. Строки. Алгоритмы. Консольное приложение.
-Консольное приложение написанное на языке программирования Java. 
+Консольное приложение написанное на языке программирования PHP. 
 Программа делает следующее:
   1. Просит пользователя ввести строку.
   2. Проверяет правильная ли строка была введена. Она должна быть короче 32 символов и содержать только цифры 0 и 1.

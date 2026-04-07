@@ -1,7 +1,8 @@
 <?php
+    const MAX_INT = 2 ** 32 - 1;
     $nDecNum = 0;
     $nBinPower = 1;
-    $nMaxBinDigits = ceil(log(PHP_INT_MAX,2));
+    $nMaxBinDigits = ceil(log(MAX_INT, 2));
     echo("Input a binary number:\r\n");
     $strLine = chop(fgets(STDIN));
     $nStrLen = strlen($strLine);

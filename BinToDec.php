@@ -20,6 +20,6 @@
         $nDecNum += ($nBinDight * $nBinPower);
         $nBinPower *= 2;
     }
-    printf("The decimal equivalent of the binary number %s is %d\r\n", $strLine, $nDecNum);
+    printf("The decenary equivalent of the binary number %s is %d\r\n", $strLine,$nDecNum);
     fgetc(STDIN);
 ?>
